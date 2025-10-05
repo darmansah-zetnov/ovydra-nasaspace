@@ -1,0 +1,64 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #00bfff;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #00bfff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #1a1b2e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #0b0c1a;
+  border: 1px solid #444;
+  color: #e0e0e0;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00bfff;
+  color: #0b0c1a;
+  font-weight: bold;
+  border: none;
+}
+
+.result {
+  margin-top: 10px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.memoryList {
+  background-color: #1a1b2e;
+  padding: 15px;
+  border-radius: 10px;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.memoryList li {
+  margin-bottom: 8px;
+}
