@@ -39,3 +39,4 @@ backend/src/model/user_memory.json
 # Root-level
 .vscode/
 .DS_Store
+venv/
