@@ -1,5 +1,5 @@
-# dependencies
-frontend/node_modules
+# Frontend (Next.js / Node)
+frontend/node_modules/
 frontend/.pnp
 frontend/.pnp.*
 frontend/.yarn/*
@@ -8,21 +8,34 @@ frontend/.yarn/*
 !frontend/.yarn/releases
 !frontend/.yarn/versions
 
-# testing
-frontend/coverage
-
-# next.js
+# Next.js build/output
 frontend/.next/
 frontend/out/
-
-# production
 frontend/build
 
-# misc
+# Testing
+frontend/coverage
+
+# Misc
 frontend/.DS_Store
 frontend/*.pem
 
-# debug
+# Debug logs
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
+
+# Backend (Python / FastAPI)
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+
+# Environment
+backend/.env
+backend/src/model/user_memory.json
+
+# Root-level
+.vscode/
+.DS_Store
